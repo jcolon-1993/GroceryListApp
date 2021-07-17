@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+  /* Contains all element for list */
+.container
+{
+  padding: 50px 0 70px 0;
+  margin: 0px 200px 0px 200px;
+  background-color: #C5C3C3;
+  border-radius: 50px;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  color: #000;
+}
+/* Used for icon */
+img
+{
+  background-position: center center;
+  margin: 0 0 0 auto;
+}
+/* List elements */
+ul
+{
+  padding: 0;
+}
+li
+{
+  background-color: #7FFF99;
+  font-size: 30px;
+  list-style-type: none;
+  text-align: left;
+  padding: 0 0 0 50px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #000;
+  height: 50px;
+}
+h2
+{
+  font-size: 24px;
+  display: block;
+}
+h2 span
+{
+  background-color: #44A7CE;
+  border-radius: 50px;
+  display: inline-block;
+  font-size: 24px;
+  text-align: center;
+  height: 25px;
+  width: 25px;
+  font-size: 15px;
+  letter-spacing: 0;
+  position: relative;
+  top: -3px;
+}
+/* Form elements */
+input[type="submit"], a.add, button, a.show
+{
+  background-color: #44A7CE;
+  font-size: 25px;
+  border-radius: 25px;
+  margin: 0 15px 0 0;
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+}
+input[type="text"], textarea
+{
+  background-color: #fff;
+  font-size: 25px;
+  border-radius: 50px;
+  color: #000;
+  outline: none;
+}
+
+/* Small Sized Devices */
+@media only screen and (max-width: 500px)
+{
+  .container
+  {
+    max-width: 480px;
+    margin: 0px 0px 0px 0px;
+  }
+  input[type="text"], textarea
+  {
+    width: 75%;
+  }
+}
+/* Medium Sized Devices */
+@media only screen and (min-width: 501px) and (max-width: 767px)
+{
+  .container
+  {
+    max-width: 600px;
+    margin: 0px auto 0px auto;
+  }
+  input[type="text"], textarea
+  {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px)
+{
+  .container
+  {
+    max-width: 700px;
+    margin: 0px auto 0px auto;
+  }
+  input[type="text"], textarea
+  {
+    width: 75%;
+  }
+}
+
+/* Larger screens */
+@media only screen and (min-width: 960px)
+{
+  .container
+  {
+    max-width: 950px;
+    margin: 0px auto 0px auto;
+  }
+  input[type="text"], textarea
+  {
+    width: 75%;
+  }
+}
+}

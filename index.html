@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grocery List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- container to hold list -->
+    <div class="container">
+      <!-- Icon -->
+      <img src="images/groceries.png" />
+      <h2>Groceries to Buy <span id="numItems"></span></h2>
+      <ul>
+      </ul>
+      <!-- Form to add new items -->
+      <div id="newItem"><button href="#" id="showForm">Add New Item</div>
+      <form id="newItemForm">
+        <!-- Form to Search for items -->
+        <input type="text" id="itemSearch" placeholder="Search for item">
+        <!-- Form to add items -->
+        <input type="submit" id="add" value="add to cart">
+      </form>
+    </div>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
+  </body>
